@@ -7,78 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#dashboard">Dashboard</a></li>
-                <li><a href="#traffic-manager">Traffic Manager</a></li>
-                <li><a href="#contact-management">Contact Management</a></li>
-                <li><a href="#email-campaigns">Email Campaigns</a></li>
-                <li><a href="#analytics">Analytics & Reports</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="dashboard">
-            <h1>Dashboard Overview</h1>
-            <div class="quick-stats">
-                <div class="stat">
-                    <h3>Traffic</h3>
-                    <p>10,000 visits</p>
-                </div>
-                <div class="stat">
-                    <h3>Conversion Rate</h3>
-                    <p>2.5%</p>
-                </div>
-                <div class="stat">
-                    <h3>New Contacts</h3>
-                    <p>250</p>
-                </div>
-                <div class="stat">
-                    <h3>Emails Sent</h3>
-                    <p>1,000</p>
-                </div>
-            </div>
-            <div class="charts">
-                <div class="chart">
-                    <h3>Traffic Sources</h3>
-                    <!-- Placeholder for traffic source chart -->
-                    <div class="chart-placeholder"></div>
-                </div>
-                <div class="chart">
-                    <h3>Conversion Funnel</h3>
-                    <!-- Placeholder for conversion funnel chart -->
-                    <div class="chart-placeholder"></div>
-                </div>
-            </div>
-        </section>
-
-        <section id="traffic-manager">
-            <h2>Traffic Manager</h2>
-            <!-- Traffic manager content -->
-        </section>
-
-        <section id="contact-management">
-            <h2>Contact Management</h2>
-            <!-- Contact management content -->
-        </section>
-
-        <section id="email-campaigns">
-            <h2>Email Campaigns</h2>
-            <!-- Email campaigns content -->
-        </section>
-
-        <section id="analytics">
-            <h2>Analytics & Reports</h2>
-            <!-- Analytics and reports content -->
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Contacting.ai. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="script.js" type="text/babel"></script>
 </body>
 </html>
